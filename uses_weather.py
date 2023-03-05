@@ -2,4 +2,7 @@ import weather
 
 print("I am using the weather.py but it does not call main")
 
-print(f"The wind speed is {weather.to_mph(25)}")
+temp_kelvin = 287
+print(f"The Kelvin temperature is {temp_kelvin}K.")
+print(f"In Fahrenheit it's {weather.to_fahrenheit(temp_kelvin)} Degrees")
+print(f"In Celcius it's {weather.to_celcius(temp_kelvin)} Degrees")
